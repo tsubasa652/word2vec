@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "word2vec"
+version = "0.1.0"
+description = ""
+authors = ["tsubasa652 <34929737+tsubasa652@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gensim = "^4.3.0"
+fastapi = "^0.91.0"
+uvicorn = "^0.20.0"
+pydantic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
